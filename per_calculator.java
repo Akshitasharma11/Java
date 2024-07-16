@@ -3,17 +3,18 @@ import java.util.Scanner;
 
 public class per_calculator {
     public static void main(String[] args){
-        Scanner per= new Scanner(System.in);
+        @SuppressWarnings("resource")
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter marks for English");
-        float marks1=per.nextFloat();
+        float marks1=sc.nextFloat();
         System.out.println("Enter marks for Hindi");
-        float marks2=per.nextFloat();
+        float marks2=sc.nextFloat();
         System.out.println("Enter marks for Maths");
-        float marks3=per.nextFloat();
+        float marks3=sc.nextFloat();
         System.out.println("Enter marks for Science");
-        float marks4=per.nextFloat();
+        float marks4=sc.nextFloat();
         System.out.println("Enter marks for Social Studies");
-        float marks5=per.nextFloat();
+        float marks5=sc.nextFloat();
 
         // float percentage=per.nextFloat();
         float sum=marks1+marks2+marks3+marks4+marks5;
