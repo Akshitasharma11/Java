@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class if1 {
+public class ifcase {
     public static void main(String[] args) {
         int age;
         @SuppressWarnings("resource")
