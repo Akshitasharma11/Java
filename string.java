@@ -34,5 +34,9 @@ public class string {
 
         System.out.println(name.equals("akshita"));
         System.out.println(name.equalsIgnoreCase("akshita"));
+
+        //problem 3
+        String letter = "Dear <|name|>, Thanks a lot" ;
+        System.out.println(letter.replace("<|name|>", "Akshita"));
     }
 }
