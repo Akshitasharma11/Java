@@ -23,3 +23,4 @@ public class switchcase {
         }
     }
 }
+// aaj kuch nhi kiya 
