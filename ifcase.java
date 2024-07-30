@@ -5,7 +5,6 @@ public class ifcase {
         int age;
         @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
-        // System.out.println("age=");
             age=sc.nextInt();
         
         if (age>=18) {
