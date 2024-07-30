@@ -11,5 +11,8 @@ public class ifcase {
         if (age>=18) {
             System.out.println("Eligible");   
         }
+        else{
+            System.out.println("non-eligible");
+        }
     }
 }
