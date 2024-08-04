@@ -4,21 +4,43 @@ public class ifcase {
     public static void main(String[] args) {
         @SuppressWarnings("resource")
         Scanner sc= new Scanner(System.in);
-       int m1,m2,m3;
-       System.out.println("enter marks of English:");
-           m1=sc.nextInt();
-           System.out.println("enter marks of Hindi:");
-           m2=sc.nextInt();
-           System.out.println("enter marks of Maths:");
-           m3=sc.nextInt();
-           float avg= (m1+m2+m3)/0.3f;
+        System.out.println("enter a website url");
+         String a= sc.nextLine();
+         if(a.endsWith(".com")){
+            System.out.println("commercial website");
+         }
+         else if (a.endsWith(".in")){
+            System.out.println("indian website");
+         }
+         else if (a.endsWith(".org")){
+            System.out.println("organizational wesite");
+         }
 
-           if(avg>=40 && m1>=33 && m2>=33 && m3>=33 ){
-            System.out.println("PASS");
-           }
-           else{
-            System.out.println("FAIL");
-           }
+
+
+
+
+
+
+
+
+
+
+    //    int m1,m2,m3;
+    //    System.out.println("enter marks of English:");
+    //        m1=sc.nextInt();
+    //        System.out.println("enter marks of Hindi:");
+    //        m2=sc.nextInt();
+    //        System.out.println("enter marks of Maths:");
+    //        m3=sc.nextInt();
+    //        float avg= (m1+m2+m3)/0.3f;
+
+    //        if(avg>=40 && m1>=33 && m2>=33 && m3>=33 ){
+    //         System.out.println("PASS");
+    //        }
+    //        else{
+    //         System.out.println("FAIL");
+        //    }
         }
     }
 
