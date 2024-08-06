@@ -8,7 +8,7 @@ public class max {
     //  System.out.println("/n");
     // }
 
-
+// kuch ni padha aaj bhi
 
 
 
