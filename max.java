@@ -1,14 +1,15 @@
 // import java.util.Scanner;
 public class max {
     public static void main(String[] args){
-    //  for(int i=4;i<0;i--){
-    //     for(int j=0;j<i;j++){
+     for(int i=0;i<=4;i++){
+        for(int j=4;j<i;j++){
         System.out.println("*");
-    //  }
+     }
     //  System.out.println("/n");
-    // }
+    }
+        }
+}
 
-// kuch ni padha aaj bhi
 
 
 
@@ -27,5 +28,4 @@ public class max {
     //     System.out.print("max number=");
     //     System.out.println(b);
     // }
-    }
-}
+

@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class per_calculator {
     public static void main(String[] args){
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter marks for English");
         float marks1=sc.nextFloat();
