@@ -9,8 +9,6 @@ import java.util.*;
 public class RockPaperScissors {
 	
 	public static void main(String[] args) {
-	
-		@SuppressWarnings("resource")
         Scanner scn = new Scanner(System.in);
 		
 		while(true) {
