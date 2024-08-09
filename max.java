@@ -1,11 +1,12 @@
 // import java.util.Scanner;
 public class max {
     public static void main(String[] args){
-     for(int i=0;i<=4;i++){
-        for(int j=4;j<i;j++){
-        System.out.println("*");
+        int n=4;
+     for(int i=n;i>0;i--){
+        for(int j=0;j<i;j++){
+        System.out.print("*");
      }
-    //  System.out.println("/n");
+        System.out.print("\n");
     }
         }
 }
