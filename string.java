@@ -1,7 +1,7 @@
 public class string {
 
     public static void main(String[] args) {
-        String name= "Akshita";
+        String name= "Akshita Sharma";
         System.out.println(name);
         
         int value= name.length();
