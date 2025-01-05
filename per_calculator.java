@@ -13,10 +13,12 @@ public class per_calculator {
         float marks4=sc.nextFloat();
         System.out.println("Enter marks for Social Studies");
         float marks5=sc.nextFloat();
+        System.out.println("Enter marks for Sanskrit");
+        float marks6=sc.nextFloat();
 
         // float percentage=per.nextFloat();
-        float sum=marks1+marks2+marks3+marks4+marks5;
-        float percentage=sum/500*100;
+        float sum=marks1+marks2+marks3+marks4+marks5+marks6;
+        float percentage=sum/600*100;
         System.out.println("Percentage:"+ percentage);
     }
 }
